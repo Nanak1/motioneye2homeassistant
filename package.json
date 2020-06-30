@@ -1,0 +1,22 @@
+{
+  "name": "motioneye2homeassistant",
+  "version": "1.0.0",
+  "description": "Запрашивает снимок из камеры в motioneye и сразу отправляет его в home assistant без сохранения в файл",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nanak1/motioneye2homeassistant.git"
+  },
+  "author": "Nanaki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nanak1/motioneye2homeassistant/issues"
+  },
+  "homepage": "https://github.com/Nanak1/motioneye2homeassistant#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
