@@ -4,7 +4,7 @@
     {
       "timeout": 1000,
       "motioneye": "http://localhost:8765/picture/1/current",
-      "homeassistant": "https://home.honeycat.ru/api/webhook/camera_stream_1",
+      "homeassistant": "https://home.example.org/api/webhook/camera_stream_1",
       "field": "image",
       "disabled": false
     }
@@ -13,7 +13,7 @@
     {
       "webhook": "/camera_motion_1",
       "motioneye": "http://localhost:8765/picture/1/current",
-      "homeassistant": "https://home.honeycat.ru/api/webhook/camera_motion_1",
+      "homeassistant": "https://home.example.org/api/webhook/camera_motion_1",
       "field": "image",
       "disabled": false
     }
