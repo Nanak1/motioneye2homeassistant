@@ -1,21 +1,6 @@
 {
-  "port": 3333,
-  "streams": [
-    {
-      "timeout": 1000,
-      "motioneye": "http://localhost:8765/picture/1/current",
-      "homeassistant": "https://home.example.org/api/webhook/camera_stream_1",
-      "field": "image",
-      "disabled": false
-    }
-  ],
-  "motions": [
-    {
-      "webhook": "/camera_motion_1",
-      "motioneye": "http://localhost:8765/picture/1/current",
-      "homeassistant": "https://home.example.org/api/webhook/camera_motion_1",
-      "field": "image",
-      "disabled": false
-    }
-  ]
+  "source": "http://localhost:8765/picture/1/current",
+  "stream": "https://home.example.org/api/webhook/camera_1",
+  "field": "image",
+  "delay": 1000
 }
